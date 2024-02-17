@@ -1,4 +1,5 @@
 # ScannerSort
+![ScannerSort Logo](https://repository-images.githubusercontent.com/743312216/4b28663b-0e8b-4f10-a473-a86765dfa211)
 ## Description
 ScannerSort is an in-place, linearithmic, unstable sorting algorithm.
 
@@ -35,7 +36,7 @@ int main(void) {
 ```
 
 ## Reference
-### `scannersort_[order]()`
+#### `scannersort_[order]()`
 This is the sorting function that accepts the 2 following arguments.
 
 `[order]` is replaced with either `ascending` or `descending`.
