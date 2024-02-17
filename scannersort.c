@@ -1,20 +1,20 @@
-#include "entro-sort.h"
+#include "scannersort.h"
 
-void entro_sort_ascending(unsigned long count, int *input) {
+void scannersort_ascending(unsigned long count, int *input) {
   int copied_input;
   unsigned long step_count;
   unsigned long i;
   unsigned long j;
-  char is_sorted;
+  bool is_sorted;
 
   if (count > 1) {
     i = 0;
     j = (count >> 12) + (count >> 7) + 1;
-    is_sorted = 0;
+    is_sorted = false;
 
     while (is_sorted == 0) {
       step_count = (count >> 15) + (count >> 14) + 1;
-      is_sorted = 1;
+      is_sorted = true;
 
       while (i < j) {
         while (j != count) {
@@ -46,14 +46,14 @@ void entro_sort_ascending(unsigned long count, int *input) {
             copied_input = input[i];
             input[i] = input[j];
             input[j] = copied_input;
-            is_sorted = 0;
+            is_sorted = false;
           }
         }
 
         j--;
       }
 
-      if (is_sorted == 0) {
+      if (is_sorted == false) {
         i = 0;
         j = (count >> 15) + (count >> 14) + 8;
       }
@@ -61,21 +61,21 @@ void entro_sort_ascending(unsigned long count, int *input) {
   }
 }
 
-void entro_sort_descending(unsigned long count, int *input) {
+void scannersort_descending(unsigned long count, int *input) {
   int copied_input;
   unsigned long step_count;
   unsigned long i;
   unsigned long j;
-  char is_sorted;
+  bool is_sorted;
 
   if (count > 1) {
     i = 0;
     j = (count >> 12) + (count >> 7) + 1;
-    is_sorted = 0;
+    is_sorted = false;
 
     while (is_sorted == 0) {
       step_count = (count >> 15) + (count >> 14) + 1;
-      is_sorted = 1;
+      is_sorted = true;
 
       while (i < j) {
         while (j != count) {
@@ -107,14 +107,14 @@ void entro_sort_descending(unsigned long count, int *input) {
             copied_input = input[i];
             input[i] = input[j];
             input[j] = copied_input;
-            is_sorted = 0;
+            is_sorted = false;
           }
         }
 
         j--;
       }
 
-      if (is_sorted == 0) {
+      if (is_sorted == false) {
         i = 0;
         j = (count >> 15) + (count >> 14) + 8;
       }
