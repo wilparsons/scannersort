@@ -1,6 +1,6 @@
-#ScannerSort
+# ScannerSort
 ## Description
-ScannerSort is an in-place, linearithmic, unstable sorting algorithm.
+ScannerSort is an in-place, linearithmic, unstable sorting algorithm.  
 Read [this article](https://medium.com/@wilparsons/scannersort-is-a-new-sorting-algorithm-upgrade-to-bubble-sort-and-cocktail-shaker-sort-78662863c976) for an in-depth explanation.
 
 ## Usage
@@ -35,14 +35,14 @@ int main(void) {
 
 ## Reference
 ### `scannersort_[order]()`
-This is the sorting function that accepts the 2 following arguments.
-`[order]` is replaced with either `ascending` or `descending`.
-`count` is the count of elements in the `input` array.
-`input` is the array to sort.
-The default input data type in C is `int`. Any data type can be sorted by replacing all occurences of `int` with the appropriate data type.
-Other programming languages use generic types.
+This is the sorting function that accepts the 2 following arguments.  
+`[order]` is replaced with either `ascending` or `descending`.  
+`count` is the count of elements in the `input` array.  
+`input` is the array to sort.  
+The default input data type in C is `int`. Any data type can be sorted by replacing all occurences of `int` with the appropriate data type.  
+Other programming languages use generic types.  
 The return value data type is `void`.
 
 ## Support
-ScannerSort was designed and developed by [Wil Parsons](https://wilparsons.com/).
-I'm available to extend, modifify or implement ScannerSort on a freelance or full-time work basis.
+ScannerSort was designed and developed by [Wil Parsons](https://wilparsons.com/).  
+I'm available for freelance work to extend, modifify and implement ScannerSort or other algorithms.
