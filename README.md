@@ -45,9 +45,7 @@ This is the sorting function that accepts the 2 following arguments.
 
 `input` is the array to sort.
 
-The default input data type in C is `int`. Any data type can be sorted by replacing all occurences of `int` with the appropriate data type.
-
-Other programming languages use generic types.
+The default input data type is `int`. Any data type can be sorted by replacing all occurences of `int` with the appropriate data type.
 
 The return value data type is `void`.
 
