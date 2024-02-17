@@ -54,4 +54,4 @@ The return value data type is `void`.
 ## Support
 ScannerSort was designed and developed by [Wil Parsons](https://wilparsons.com/).
 
-I'm available for freelance work to extend, modifify and implement ScannerSort or other algorithms.
+I'm available for freelance work to extend, modifify or implement ScannerSort and other algorithms.
