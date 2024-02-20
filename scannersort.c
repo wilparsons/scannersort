@@ -12,7 +12,7 @@ void scannersort_ascending(unsigned long count, int *input) {
     j = (count >> 12) + (count >> 7) + 1;
     is_sorted = false;
 
-    while (is_sorted == 0) {
+    while (is_sorted == false) {
       step_count = (count >> 15) + (count >> 14) + 1;
       is_sorted = true;
 
@@ -73,7 +73,7 @@ void scannersort_descending(unsigned long count, int *input) {
     j = (count >> 12) + (count >> 7) + 1;
     is_sorted = false;
 
-    while (is_sorted == 0) {
+    while (is_sorted == false) {
       step_count = (count >> 15) + (count >> 14) + 1;
       is_sorted = true;
 
