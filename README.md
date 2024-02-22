@@ -51,6 +51,6 @@ The default input data type is `int`. Any data type can be sorted by replacing a
 The return value data type is `void`.
 
 ## Support
-ScannerSort was designed and developed by [Wil Parsons](https://wilparsons.com/).
+ScannerSort was designed and developed by [Wil Parsons](https://wilparsons.github.io).
 
 I'm available for freelance work to extend, implement or modify ScannerSort and other algorithms.
