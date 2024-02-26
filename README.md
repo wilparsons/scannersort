@@ -2,7 +2,7 @@
 ![ScannerSort Logo](https://repository-images.githubusercontent.com/743312216/4b28663b-0e8b-4f10-a473-a86765dfa211)
 
 ## Description
-ScannerSort is an in-place, linearithmic, unstable sorting algorithm.
+ScannerSort is an in-place, unstable sorting algorithm.
 
 Read [this article](https://medium.com/@wilparsons/scannersort-is-a-new-sorting-algorithm-upgrade-to-bubble-sort-and-cocktail-shaker-sort-78662863c976) for an in-depth explanation.
 
