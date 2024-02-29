@@ -1,5 +1,5 @@
 # ScannerSort
-![ScannerSort Logo](https://repository-images.githubusercontent.com/743312216/4b28663b-0e8b-4f10-a473-a86765dfa211)
+![ScannerSort Logo](https://repository-images.githubusercontent.com/743312216/4e4a3e89-5538-42f8-9380-6cd8b11e5302)
 
 ## Description
 ScannerSort is an in-place, unstable sorting algorithm.
