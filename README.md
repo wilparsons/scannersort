@@ -49,8 +49,3 @@ This is the sorting function that accepts the 2 following arguments.
 The default input data type is `int`. Any data type can be sorted by replacing all occurences of `int` with the appropriate data type.
 
 The return value data type is `void`.
-
-## Support
-ScannerSort was designed and developed by [Wil Parsons](https://github.com/wilparsons).
-
-I'm available for freelance work to extend, implement or modify ScannerSort and other algorithms.
